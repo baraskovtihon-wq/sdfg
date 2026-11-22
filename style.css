@@ -1,65 +1,65 @@
-.new {
-animation:child 2s infinite ;
+h2{
+    text-align: center;
+    animation: h2 2s alternate infinite;
 }
-.year {
-    animation:child 2s infinite ;
+
+.ilia{
+width:450px ;
+height:450px ;
 }
-.card {
-    background-color: rgb(11, 51, 210)  ;
-    position: absolute;
-height:100% ;
-width:100% ;
+
+.klim{
+width:180px ;
+height:180px ;
+position: absolute;
+right: 15px; 
+animation: klim 2.5s infinite alternate;
 }
-.tree {
-    position: absolute;
-    bottom:200px ;
-    animation:toy 5s infinite alternate ;
-}
-.present {
-}
-.sweets {
-    position: absolute;
-width:100px ;
-height:100px ;
-left:800px ;
-bottom:500px ;
-animation:toy 3s infinite alternate ;
-}
-@keyframes toy{ 
-    50%{ 
+
+
+@keyframes klim{
+    50%{
         transform: scale(0.5);
     }
-    100%{ 
+    100%{
         transform: scale(1);
     }
 }
 
-@keyframes child{ 
-0%{ 
-    color: rgb(213, 5, 36);
-}
-50%{ 
-    color: green;
-}
-100%{ 
-    color:yellow ;
+@keyframes h2 {
+    50%{
+color: blue;
+    }
+    100%{
+color: brown;
+    }
 }
 
 
-
+h3 {
+    text-align: center;
+    color: chartreuse;
 }
 
 
 
+.tikhon{
+width:285px ;
+height: 285px;
+}
 
 
+ a{
+    display: block;
+ }   
 
 
-
-
-
-
-
+.main{
+      background-color: rgba(9, 242, 242, 0.941);
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(26, 1, 1);
+    
+}
 
 
 
